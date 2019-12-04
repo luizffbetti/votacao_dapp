@@ -1,4 +1,4 @@
-var enderecoContrato = "0x1b861f943de0b8d08e62de58cfbbfd349a6e715d";
+var enderecoContrato = "0x720e686dfef44ce701d21f3246190bce6e7cb061";
 var provedor = new ethers.providers.Web3Provider(web3.currentProvider);
 ethereum.enable();
 var signatario = provedor.getSigner();
@@ -45,3 +45,4 @@ function pagarMulta() {
       alert('Erro ao cobrar a multa.' + JSON.stringify(err));
     })
 }
+
